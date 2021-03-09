@@ -1,10 +1,13 @@
 Chunking of text invloves dividing a text into syntactically correlated words.
 
-Eg: He ate an apple to satiate his hunger.  [NP He ] [VP ate] [NP an apple] [VP to satiate] [NP his hunger]
+Eg: He ate an apple to satiate his hunger.
+[NP He ] [VP ate] [NP an apple] [VP to satiate]
+[NP his hunger]
 
 Eg: दरवाज़ा खुल गया [NP दरवाज़ा] [VP खुल गया]<br/>
 
 ### Chunk Types
+
 The chunk types are based on the syntactic category part. Besides the head a chunk also contains modifiers (like determiners, adjectives, postpositions in NPs).
 
 
@@ -30,14 +33,13 @@ The basic Chunk Tag Set for Indian Languages
 |3  |Adjectival Chunk|JJP|
 |4  |Adverb Chunk|RBP|
 
-<br/>
-<br/>
+
 #### Noun Chunks
 
 Noun Chunks will be given the tag NP and include non-recursive noun phrases and postposition for Indian languages and preposition for English. Determiners, adjectives and other modifiers will be part of the noun chunk.
 
 Eg: (इस/DEM किताब/NN में/PSP)NP <br/>
-     'this' 'book'  'in'<br/>
+     'this'  'book'   'in'<br/>
 ((in/IN the/DT big/ADJ room/NN))NP
 
 <br/>
