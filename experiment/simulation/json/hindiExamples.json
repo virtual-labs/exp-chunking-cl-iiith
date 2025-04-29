@@ -1,0 +1,34 @@
+[
+  {
+    "text": "राम सीता के लिए फूलों की माला बनाता है।",
+    "chunkData": "राम/NN/B-NP सीता/NP/B-NP के/PSP/I-NP लिए/PSP/I-NP फूलों/NP/B-NP की/PSP/I-NP माला/NP/B-NP बनाता/VM/B-VGF है/VAUX/I-VGF"
+  },
+  {
+    "text": "सभी बच्चे विद्यालय में पढ़ते है।",
+    "chunkData": "सभी/QF/B-NP बच्चे/NN/I-NP विद्यालय/NN/B-NP में/PSP/I-NP पढ़ते/VM/B-VGF है/VAUX/I-VGF"
+  },
+  {
+    "text": "मैंने उनसे एक सहज प्रश्न पूछा था।",
+    "chunkData": "मैंने/PRP/B-NP उनसे/PRP/B-NP एक/QC/B-NP सहज/JJ/I-NP प्रश्न/NN/I-NP पूछा/VM/B-VGF था/VAUX/I-VGF"
+  },
+  {
+    "text": "भागता हुआ हिरण गिर गया।",
+    "chunkData": "भागता/VM/B-VGNF हुआ/VAUX/I-VGNF हिरण/NN/B-NP गिर/VM/B-VGF गया/VAUX/I-VGF"
+  },
+  {
+    "text": "लक्ष्मण राम के साथ वनवास गया।",
+    "chunkData": "लक्ष्मण/NNP/B-NP राम/NNP/B-NP के/PSP/I-NP साथ/NST/I-NP वनवास/NN/B-NP गया/VM/B-VGF"
+  },
+  {
+    "text": "इस शुभावसर पर राम ने गरीबों को दान दिया।",
+    "chunkData": "इस/DEM/B-NP शुभावसर/NN/I-NP पर/PSP/I-NP राम/NNP/B-NP ने/PSP/I-NP गरीबों/NN/B-NP को/PSP/I-NP दान/NN/B-NP दिया/VM/B-VGF"
+  },
+  {
+    "text": "ट्रेन में होने वाले हर अपराध में इस गाँव का कोई शामिल मिल जाएगा।",
+    "chunkData": "ट्रेन/NN/B-NP में/PSP/I-NP होने/VM/B-VGNN वाले/PSP/I-VGNN हर/QF/B-NP अपराध/NN/I-NP में/PSP/I-NP इस/DEM/B-NP गाँव/NN/I-NP का/PSP/I-NP कोई/PRP/B-NP शामिल/NN/I-NP मिल/VM/B-VP जाएगा/VAUX/I-VP"
+  },
+  {
+    "text": "तुम्हारे सपने है बड़े से।",
+    "chunkData": "तुम्हारे/PRP/B-NP सपने/NN/B-NP है/VM/B-VGF बड़े/JJ/B-JJP से/RP/I-JJP"
+  }
+]
