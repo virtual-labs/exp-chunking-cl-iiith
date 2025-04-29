@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Chunking Simulation</h1>
+
+    <!-- Language Selection Dropdown -->
+    <div>
+      <label for="lang_opt">Select Language:</label>
+      <select id="lang_opt" onchange="handleLanguageSelection()">
+        <option value="0" selected>---Select Language---</option>
+        <option value="1">English</option>
+        <option value="2">Hindi</option>
+      </select>
+    </div>
+
+    <!-- Placeholder for dynamically loaded content -->
+    <div id="simulationArea"></div>
+
+    <script src="js/main.js"></script>
+  <script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>
