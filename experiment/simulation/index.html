@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-	
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Chunking Simulation</h1>
 
-	<p><li>Click <a href="./chunking/index.html" target="_new">here</a> to perform the experiment</li></p>
+    <!-- Language Selection Dropdown -->
+    <div>
+      <label for="lang_opt">Select Language:</label>
+      <select id="lang_opt" onchange="handleLanguageSelection()">
+        <option value="0" selected>---Select Language---</option>
+        <option value="1">English</option>
+        <option value="2">Hindi</option>
+      </select>
+    </div>
 
-<body>
-   
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="js/main.js"></script>
-<!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Placeholder for dynamically loaded content -->
+    <div id="simulationArea"></div>
 
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
